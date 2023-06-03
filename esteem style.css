@@ -1,0 +1,118 @@
+body{
+    font-family: 'Montserrat' Arial, Helvetica, sans-serif ;
+}
+h1,h3,h4{
+    font-family: 'Montserrat-bold';
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: purple;
+}
+input{
+    border: 0;
+}
+#global{
+    text-align: center;
+}
+#title-section{
+background-color: crimson;
+color: #fff;
+}
+.title-container{
+    text-align: center;
+    padding: 30px;
+    
+}
+#newsletter{
+    padding:20px 55px 55px;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+}
+#newsletter h3{
+    float: left;
+}
+#newsletter form{
+   float: right;
+}
+
+#features{
+    margin-top: 60px ;
+}
+.features-container{
+    margin-top: 40px;
+    padding: 30px;
+}
+/* form section */
+#form{
+    margin-top: 40px;
+}
+form{
+    color: #fff;
+}
+.form-container{
+   background-color:#ff4c68; 
+   color:#fff;
+   margin: 30px auto;
+   padding: 30px;
+   width: 40%;
+}
+
+.input{
+    float: right;
+    margin-right: 40px;
+}
+.get-course{
+    background-color: #ff4c68;
+    width: 25%;
+    margin: 40px auto 0 auto;
+    padding: 10px;
+}
+footer{
+    background-color:crimson ;
+    color: #fff;
+    margin-top: 0;    
+}
+.about{
+    background-color: darkslategrey;
+    text-align: start;
+    max-width: 100%;
+    margin: 20px 20%;
+    padding: 5px;
+    color: #fff;
+}
+.about-cp{
+    margin-top: 20%;
+    text-align: center;
+}
+
+
+/* media queries */
+@media(max-width:900px){
+    #newsletter h3{
+        float: none;
+    }
+    #newsletter form{
+       float: none;
+    }
+    .input{
+        float: none;
+    }
+    .form-container{
+        background-color:#ff4c68; 
+        color:#fff;
+        margin: 30px auto;
+        padding: 30px;
+        width: 50%;
+        }
+    
+    
+}
